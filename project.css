@@ -1,0 +1,799 @@
+body,html{
+    overflow-x: hidden;
+}
+
+.grandparent{
+    height: 85vh;
+   background: url(images/animation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: nike 10 8s 2s ease-in-out;
+    position: relative;
+    display: grid;
+    place-items: center;
+    
+}
+@keyframes nike{
+    0%{
+        background: url(images/night1.jpg);
+    }
+
+
+    50%{
+        background: url(images/analog-landscape-city-with-buildings.jpg);
+    }
+
+    50%{
+        background: url("images/anim.jpg");
+    }
+
+    
+}
+
+
+.grandparent::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(75, 70, 70, 0.438);
+
+}
+
+.words{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+    color: #fff;
+}
+
+
+
+.words h1 {
+    line-break: 5px;
+    font-size: 40px;
+  }
+  
+  
+ .abt{
+    text-align: center;
+    padding-top: 30px;
+ }
+
+
+ .abt p{
+    font-size: 20px;
+    font-style: oblique;
+    color: rgb(13, 13, 77);
+ }
+
+ .abt h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color:  rgb(13, 13, 77);
+ }
+
+ .abt1{
+    text-align: center;
+ }
+ .abt1 p{
+    font-size: 20px;
+    font-style: oblique;
+    color:rgb(13, 13, 77);
+ }
+ .bigp{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 70px 150px;
+
+ }
+
+ img{
+    width: 100%;
+    object-fit: cover;
+ }
+ .p1 img{
+    width: 700px;
+    height: 4   00px;
+ }
+
+.p2 h1{
+    font-size: 30px;
+    color: rgb(13, 13, 77);
+}
+
+.p2 p{
+    color: rgb(13, 13, 77);
+    font-style: oblique;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.carousel-item img{
+    height: 500px;
+    /* width: 400px; */
+    object-fit: cover !important;
+}
+
+
+
+.prices{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 120px;
+}
+
+.pri p{
+    text-align: center;
+     color: rgb(13, 13, 77);
+}
+
+.rept{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 50px;
+    color: rgb(13, 13, 77);
+}
+
+.rept2{
+    display: flex;
+    flex-direction: column;
+}
+
+.subpret{
+    display: flex;
+    gap: 30px;
+}
+
+
+.contact{
+    
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1.2fr;
+     /* padding: 30px 70px; */
+     color:white;
+     
+     
+
+     
+}
+.general{
+    height: 100vh;
+     background: url(images/nota.jpg);
+     position: relative;
+     object-fit: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: grid;
+     place-items: center;
+}
+
+.general::after{
+    content: "";
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.664);
+}
+
+.subcont{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    gap: 25px;
+    padding: 30px 70px;
+    
+}
+
+.subcont header{
+    font-size: 20px;
+}
+
+
+.md11{
+    background-color: rgb(13, 13, 77);
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(13, 13, 77);
+    display: grid;
+    place-items: center;
+}
+
+.md11 i{
+color: #fff;
+font-size: 25px;
+}
+.subsi{
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+}
+
+.subsi p{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.subsi p a{
+    color: #fff;
+    text-decoration: none;
+}
+.md{
+    display: flex;
+    gap: 20px;
+}
+
+
+.md111{
+    display: flex;
+    gap: 20px;
+    border: 2px solid rgb(13, 13, 77);
+    z-index: 2;
+    align-items: center;
+    
+}
+
+.md112{
+    background-color: rgb(13, 13, 77);
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+
+}
+
+.md112 i{
+    color: #fff;
+}
+
+
+.h p{
+    color: gray;
+    font-size: small;
+}
+
+
+.h a{
+    color: grey;
+    text-decoration: none;
+}
+
+@media (min-width:1024px){
+    .grandparent{
+        height: 85vh;
+       background: url(images/animation1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: nike 10 8s 2s ease-in-out;
+        position: relative;
+        display: grid;
+        place-items: center;
+        
+    }
+    @keyframes nike{
+        0%{
+            background: url(images/night1.jpg);
+        }
+    
+    
+        50%{
+            background: url(images/analog-landscape-city-with-buildings.jpg);
+        }
+    
+        50%{
+            background: url("images/anim.jpg");
+        }
+    
+        
+    }
+    
+    
+    .grandparent::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(75, 70, 70, 0.438);
+    
+    }
+    
+    .words{
+        text-align: center;
+        display: grid;
+        place-items: center;
+        z-index: 1;
+        color: #fff;
+    }
+    
+    
+    
+    .words h1 {
+        line-break: 5px;
+        font-size: 40px;
+      }
+      
+      
+     .abt{
+        text-align: center;
+        padding-top: 30px;
+     }
+    
+    
+     .abt p{
+        font-size: 20px;
+        font-style: oblique;
+        color: rgb(13, 13, 77);
+     }
+    
+     .abt h1{
+        font-size: 40px;
+        font-weight: bolder;
+        color:  rgb(13, 13, 77);
+     }
+    
+     .abt1{
+        text-align: center;
+     }
+     .abt1 p{
+        font-size: 20px;
+        font-style: oblique;
+        color:rgb(13, 13, 77);
+     }
+     .bigp{
+        display: flex;
+        justify-content: center;
+        gap: 75px;
+        /* padding-top: 40px; */
+    
+     }
+    
+     img{
+        width: 100%;
+        object-fit: cover;
+     }
+     .p1 img{
+        width: 700px;
+        height: 4   00px;
+     }
+    
+    .p2 h1{
+        font-size: 30px;
+        color: rgb(13, 13, 77);
+    }
+    
+    .p2 p{
+        color: rgb(13, 13, 77);
+        font-style: oblique;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    .carousel-item img{
+        height: 500px;
+        /* width: 400px; */
+        object-fit: cover !important;
+    }
+    
+    
+    
+    .prices{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 120px;
+    }
+    
+    .pri p{
+        text-align: center;
+         color: rgb(13, 13, 77);
+    }
+    
+    .rept{
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        padding-top: 50px;
+        color: rgb(13, 13, 77);
+    }
+    
+    .rept2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .subpret{
+        display: flex;
+        gap: 30px;
+    }
+    
+    
+    .contact{
+        
+         display: grid;
+         grid-template-columns: 1fr 1fr ;
+         gap: 30px;
+         /* padding: 30px 70px; */
+         color:white;
+         
+         
+    
+         
+    }
+    .general{
+        height: 100%;
+         background: url(images/nota.jpg);
+         position: relative;
+         object-fit: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         display: grid;
+         place-items: center;
+    }
+    
+    .general::after{
+        content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.664);
+    }
+    
+    .subcont{
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        gap: 25px;
+        padding: 30px 70px;
+        
+    }
+    
+    .subcont header{
+        font-size: 20px;
+    }
+    
+    
+    .md11{
+        background-color: rgb(13, 13, 77);
+        width: 50px;
+        height: 50px;
+        border: 1px solid rgb(13, 13, 77);
+        display: grid;
+        place-items: center;
+    }
+    
+    .md11 i{
+    color: #fff;
+    font-size: 25px;
+    }
+    .subsi{
+        display: flex;
+        flex-direction: column;
+        gap: 10px   ;
+    }
+    
+    .subsi p{
+        border-bottom: 1px solid grey;
+        padding-bottom: 10px;
+    }
+    
+    .subsi p a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .md{
+        display: flex;
+        gap: 20px;
+    }
+    
+    
+    .md111{
+        display: flex;
+        gap: 20px;
+        border: 2px solid rgb(13, 13, 77);
+        z-index: 2;
+        align-items: center;
+        
+    }
+    
+    .md112{
+        background-color: rgb(13, 13, 77);
+        height: 50px;
+        width: 50px;
+        display: grid;
+        place-items: center;
+    
+    }
+    
+    .md112 i{
+        color: #fff;
+    }
+    
+    
+    .h p{
+        color: gray;
+        font-size: small;
+    }
+    
+    
+    .h a{
+        color: grey;
+        text-decoration: none;
+    }
+}
+
+
+  @media (max-width:767px) {
+
+    .grandparent{
+        height: 80vh;
+       background: url(images/animation1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: nike 10 8s 2s ease-in-out;
+        position: relative;
+        display: grid;
+        place-items: center;
+        
+    }
+    @keyframes nike{
+        0%{
+            background: url(images/night1.jpg);
+        }
+    
+    
+        50%{
+            background: url(images/analog-landscape-city-with-buildings.jpg);
+        }
+    
+        50%{
+            background: url("images/anim.jpg");
+        }
+    
+        
+    }
+    
+    
+    .grandparent::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(75, 70, 70, 0.438);
+    
+    }
+    
+    .words{
+        text-align: center;
+        display: grid;
+        place-items: center;
+        z-index: 1;
+        color: #fff;
+    }
+    
+    
+    
+    .words h1{
+        line-break: 5px;
+        font-size: 30px;
+    }
+
+    .abt{
+        text-align: center;
+        padding-top: 30px;
+     }
+    
+    
+     .abt p{
+        font-size: 20px;
+        font-style: oblique;
+        color: rgb(13, 13, 77);
+     }
+    
+     .abt h1{
+        font-size: 30px;
+        font-weight: bolder;
+        color:  rgb(13, 13, 77);
+     }
+    
+     .abt1{
+        text-align: center;
+     }
+     .abt1 p{
+        font-size: 20px;
+        font-style: oblique;
+        color:rgb(13, 13, 77);
+     }
+     .bigp{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        gap: 20px;
+        
+        
+    
+     }
+    
+     img{
+        width: 100%;
+        object-fit: cover;
+     }
+     .p1 img{
+        width: 500px;
+        height: 4   00px;
+     }
+    
+    .p2 h1{
+        font-size: 30px;
+        color: rgb(13, 13, 77);
+    }
+    
+    .p2 p{
+        color: rgb(13, 13, 77);
+        font-style: oblique;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .prices{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.pri p{
+    text-align: center;
+   
+}
+
+.rept{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 65px;
+    padding-top: 50px;
+}
+
+.rept2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.subpret{
+    display: flex;
+    gap: 30px;
+}
+
+
+.contact{
+    
+    display: grid;
+    grid-template-columns: 1fr  ;
+    /* padding: 30px 70px; */
+    color:white;
+    gap: 20px;
+    
+    
+
+    
+}
+.general{
+   height: 100%;
+    background: url(images/nota.jpg);
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+
+.general::after{
+   content: "";
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.664);
+}
+
+.subcont{
+   display: flex;
+   flex-direction: column;
+   z-index: 2;
+   gap: 25px;
+   padding: 30px 70px;
+   
+}
+
+.subcont header{
+   font-size: 20px;
+}
+
+
+.md11{
+   background-color: rgb(13, 13, 77);
+   width: 50px;
+   height: 50px;
+   border: 1px solid rgb(13, 13, 77);
+   display: grid;
+   place-items: center;
+}
+
+.md11 i{
+color: #fff;
+font-size: 25px;
+}
+.subsi{
+   display: flex;
+   flex-direction: column;
+   gap: 10px   ;
+}
+
+.subsi p{
+   border-bottom: 1px solid grey;
+   padding-bottom: 10px;
+}
+
+.subsi p a{
+   color: #fff;
+   text-decoration: none;
+}
+.md{
+   display: flex;
+   gap: 20px;
+}
+
+
+.md111{
+   display: flex;
+   gap: 20px;
+   border: 2px solid rgb(13, 13, 77);
+   z-index: 2;
+   align-items: center;
+   
+}
+
+.md112{
+   background-color: rgb(13, 13, 77);
+   height: 50px;
+   width: 50px;
+   display: grid;
+   place-items: center;
+
+}
+
+.md112 i{
+   color: #fff;
+}
+
+
+.h p{
+   color: gray;
+   font-size: small;
+}
+
+
+.h a{
+   color: grey;
+   text-decoration: none;
+}
+    
+}

@@ -1,0 +1,515 @@
+body,html{
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+section{
+    padding: 1vw 5vw;
+}
+
+.grandparent{
+    height: 85vh;
+    background: url("images/background3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+    .words{
+        display: grid;
+        place-items: center;
+        padding-top: 150px;
+    
+        
+    }
+
+    .words h1{
+        font-size: 20px;
+        color: rgb(13,13,77);
+        z-index: 2;
+    }
+
+    .words p{
+        color: #fff;
+        z-index: 2;
+    }
+
+    .ire h1{
+        font-size: 70px;
+        color: #fff;
+        z-index: 2;
+        letter-spacing: 10px;
+    }
+
+  .grandparent::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(75, 70, 70, 0.158);
+
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px 80px;
+
+    
+    
+}
+
+
+.sibling2 img{
+    width: 500px;
+    height: 520px;
+}
+
+/* .sibling2:hover{
+    width: 300px;
+    height: 300px;
+    transition: all 3s ease-in-out;
+} */
+
+.sibling1 p{
+    color: rgb(13,13,77);
+}
+
+.sib1 p{
+    color: rgba(128, 128, 128, 0.322);
+}
+
+.sib b{
+    font-size: 45px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    color: rgb(13,13,77);
+    
+}
+
+.an{
+    width: 50px;
+    height: 2px;
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+    margin-top: 10px;
+}
+
+.vis {
+   display: grid;
+   place-items: center; 
+}
+
+.vis h1{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.vis p{
+    color:gray;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.vis1 {
+   display: grid;
+   place-items: center; 
+   padding-top: 150px;
+}
+
+.vis1 h1{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.vis1 p{
+    color:gray;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.vis2 {
+    display: grid;
+    place-items: center; 
+    padding-top: 150px;
+ }
+ 
+ .vis2 h1{
+     font-size: 40px;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .vis2 p{
+     color:gray;
+     padding-top: 10px;
+     font-size: 20px;
+ }
+
+
+
+.line{
+    width: 200px;
+    height: 1px;
+    background-color:goldenrod;
+    border: 1px solid goldenrod;
+    margin-top: 10px;
+    
+}
+
+
+
+@media(min-width:1024px){
+    .grandparent{
+        height: 85vh;
+        background: url("images/background3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+        .words{
+            display: grid;
+            place-items: center;
+            padding-top: 150px;
+        
+            
+        }
+    
+        .words h1{
+            font-size: 20px;
+            color: rgb(13,13,77);
+            z-index: 1;
+        }
+    
+        .words p{
+            color: #fff;
+            z-index: 1;
+        }
+    
+        .ire h1{
+            font-size: 70px;
+            color: #fff;
+            z-index: 1;
+            letter-spacing: 10px;
+        }
+    
+      .grandparent::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(75, 70, 70, 0.158);
+    
+    }
+    
+    .parent{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        
+    
+        
+        
+    }
+    
+    
+    .sibling2 img{
+        width: 500px;
+        height: 670px;
+    }
+
+    .sibling2{
+        padding-top: 150px;
+    }
+    
+    /* .sibling2:hover{
+        width: 300px;
+        height: 300px;
+        transition: all 3s ease-in-out;
+    } */
+    
+    .sibling1 p{
+        color: rgb(13,13,77);
+    }
+    
+    .sib1 p{
+        color: rgba(128, 128, 128, 0.322);
+    }
+    
+    .sib b{
+        font-size: 45px;
+        letter-spacing: 4px;
+        font-weight: bolder;
+        color: rgb(13,13,77);
+        
+    }
+    
+    .an{
+        width: 50px;
+        height: 2px;
+        background-color: goldenrod;
+        border: 1px solid goldenrod;
+        margin-top: 10px;
+    }
+    
+    .vis {
+       display: grid;
+       place-items: center; 
+    }
+    
+    .vis h1{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .vis p{
+        color:gray;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .vis1 {
+       display: grid;
+       place-items: center; 
+       padding-top: 150px;
+    }
+    
+    .vis1 h1{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .vis1 p{
+        color:gray;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    
+    .vis2 {
+        display: grid;
+        place-items: center; 
+        padding-top: 150px;
+     }
+     
+     .vis2 h1{
+         font-size: 40px;
+         margin: 0;
+         padding: 0;
+     }
+     
+     .vis2 p{
+         color:gray;
+         padding-top: 10px;
+         font-size: 20px;
+     }
+    
+    
+    
+    .line{
+        width: 200px;
+        height: 1px;
+        background-color:goldenrod;
+        border: 1px solid goldenrod;
+        margin-top: 10px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    section{
+        padding: 1vw 5vw;
+    }
+    
+    .grandparent{
+        height: 75vh;
+        background: url("images/background3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+        .words{
+            display: grid;
+            place-items: center;
+            padding-top: 150px;
+        
+            
+        }
+    
+        .words h1{
+            font-size: 20px;
+            color: rgb(13,13,77);
+            z-index: 2;
+
+        }
+    
+        .words p{
+            color: #fff;
+            z-index: 2;
+        }
+    
+        .ire h1{
+            font-size: 40px;
+            color: #fff;
+            z-index: 2;
+            letter-spacing: 10px;
+        }
+    
+      .grandparent::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(75, 70, 70, 0.158);
+        height: 82vh ;
+    
+    }
+    
+    .parent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        /* padding: 50px 80px; */
+    
+        
+        
+    }
+    
+    
+    .sibling2 img{
+        width: 500px;
+        height: 520px;
+    }
+    
+    /* .sibling2:hover{
+        width: 300px;
+        height: 300px;
+        transition: all 3s ease-in-out;
+    } */
+    
+    .sibling1 p{
+        color: rgb(13,13,77);
+    }
+    
+    .sib1 p{
+        color: rgba(128, 128, 128, 0.774);
+    }
+    
+    .sib b{
+        font-size: 45px;
+        letter-spacing: 4px;
+        font-weight: bolder;
+        color: rgb(13,13,77);
+        
+    }
+    
+    .an{
+        width: 50px;
+        height: 2px;
+        background-color: goldenrod;
+        border: 1px solid goldenrod;
+        margin-top: 10px;
+    }
+    
+    .vis {
+       display: grid;
+       place-items: center; 
+    }
+    
+    .vis h1{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .vis p{
+        color:gray;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .vis1 {
+       display: grid;
+       place-items: center; 
+       padding-top: 150px;
+    }
+    
+    .vis1 h1{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .vis1 p{
+        color:gray;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    
+    .vis2 {
+        display: grid;
+        place-items: center; 
+        padding-top: 150px;
+     }
+     
+     .vis2 h1{
+         font-size: 40px;
+         margin: 0;
+         padding: 0;
+     }
+     
+     .vis2 p{
+         color:gray;
+         padding-top: 10px;
+         font-size: 20px;
+     }
+    
+    
+    
+    .line{
+        width: 200px;
+        height: 1px;
+        background-color:goldenrod;
+        border: 1px solid goldenrod;
+        margin-top: 10px;
+        
+    }
+}

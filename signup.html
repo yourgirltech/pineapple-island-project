@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP  || pineapple island</title>
+    <style>
+        * {
+            font-family: sans-serif;
+            color: #0d0d40;
+        }
+
+        body{
+            background: #f3f2f2;
+        }
+        .grandparent {
+            display: flex;
+            position: relative;
+        }
+
+        .parent1 {
+            width: 30%;
+            /* background: url(images/_house\ background.jpg); */
+            /* height: 115vh; */
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 100vh;
+        }
+
+        .parent2 {
+            margin-left: 30%;
+            padding: 3% 10%;
+            /* height: 100vh; */
+            /* position: sticky; */
+        }
+
+        .parent2 h3 {
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+
+        form {
+            padding-right: 10%;
+            font-family: sans-serif;
+        }
+
+        form input {
+            width: 100%;
+            padding: 4% 3%;
+            border-radius: 15px;
+            border: 1px solid #cac9c9;
+            box-shadow: .5px .5px 4px #d1d4d4;
+            outline: none;
+        }
+
+        form input:hover {
+            box-shadow: 1px 1px 5px #adabab;
+        }
+        
+        .form1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+        
+        .form1 input {
+            padding: 8% 5%;
+            width: 100%;
+            /* border: 1px solid #a7a7a7; */
+        }
+
+        .p {
+            padding-bottom: 5px;
+        }
+
+        .submit {
+            width: 100%;
+            padding: 3% 0;
+            border-radius: 25px;
+            border: none;
+            background: #181515;
+            color: #fff;
+            font-size: 17px;
+            font-family: sans-serif;
+
+        }
+
+        .agreement {
+            display: flex;
+            align-items: center;
+            padding: 4% 0;
+            font-size: 13px;
+            gap: 5px;
+            font-family: sans-serif;
+        }
+
+        .check {
+            height: 20px;
+            width: 20px;
+        }
+
+        center {
+            padding: 3% 0 ;
+            font-family: sans-serif;
+        }
+
+        p a {
+            color: #383838;
+            font-family: sans-serif;
+        }
+        
+        center a{
+            color: #383838;
+            font-family: sans-serif;
+
+        }
+
+        .reCAPTCHA {
+            font-size: 12px;
+            font-family: sans-serif;
+        }
+
+        @media (max-width: 420px) {
+            .parent1 {
+                display: none;
+            }
+
+            .parent2 {
+                margin-left: 0;
+            }
+            .form1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+            }
+        }
+
+
+
+        @media (min-width: 421px) and (max-width: 1023px) {
+            .parent1 {
+                display: none;
+            }
+
+            .parent2 {
+                margin-left: 0;
+            }
+
+            form {
+                padding-right: 0;
+            }
+            .form1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 40px;
+            }
+
+            .form1 p {
+                font-size: 20px;
+            }
+            .form2 p {
+                font-size: 20px;
+            }
+
+            .agreement {
+                font-size: 15px;
+            }
+
+            .reCAPTCHA {
+                font-size: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="grandparent">
+        <div class="parent1">
+            <video src="images/login-vid.mp4" autoplay loop muted width="100%" height="100%" style="object-fit: cover;"></video>   
+        </div>
+
+        <div class="parent2">
+            <h3>Connect your <br> Goggle account</h3>
+            <form action="">
+                <div class="form1">
+                    <div class="subform">
+                        <p>Name</p>
+                        <input type="text" name="name" >
+                    </div>
+                    <div class="subform">
+                        <p>Username</p>
+                        <input type="text" name="username">
+                    </div>
+                </div>
+                <div class="form2">
+                    <p>Email</p>
+                    <input type="email" name="email">
+                </div>
+                <div class="form2">
+                    <p>Password</p>
+                    <input type="password" name="password" placeholder="6+ characters">
+                </div>
+            </form>
+            <div class="agreement">
+                <input type="checkbox" class="check">
+                <p>I agree with pineapple"s island <a href="https://dribbble.com/terms">Terms of Service</a>, <a href="https://dribbble.com/privacy">Privacy Policy</a>, and default <a href="https://dribbble.com/notifications">Notification Settings</a>.</p>
+            </div>
+
+            <button class="submit">Create Account</button>
+        <center>Already have an account? <a href="login.html">Sign In</a></center>
+        <p class="reCAPTCHA">This site is protected by reCAPTCHA and the Google <br> Privacy Policy and Terms of Service apply.</p>
+        </div>
+    </div>
+</body>
+</html>

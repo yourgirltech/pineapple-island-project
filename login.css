@@ -1,0 +1,279 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background: #f3f2f2;
+}
+.grandparent{
+    display: flex;
+    position: relative;
+}
+
+
+    .parent1 {
+        width: 30%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100vh;
+    }
+
+    .parent2 {
+        margin-left: 30%;
+            padding: 3% 10%;
+    }
+
+
+
+    .parent2 h3{
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.856);
+        font-weight: bolder;
+        
+      
+        font-family: sans-serif;
+    }
+
+    .links {
+        border: 1px solid rgb(197, 189, 189);
+        width: 300px;
+        border-radius: 30px;
+        padding: 15px 65px;
+        display: grid;
+        place-items: center;  
+    }
+
+    .links a{
+        text-decoration: none;
+        color: black;
+        /* gap: 15px; */
+    }
+
+    .links h1{
+        gap: 15px;
+    }
+
+    .links a i{
+        color: linear-gradient(to top, red,yellow,green,blue);
+        padding-right: 10px;
+        font-size: 20px;
+    }
+
+    .links1 {
+        display: grid;
+        place-items: center;
+        padding-top: 20px;
+        
+        
+    }
+
+    .links1 a{
+        color: rgb(139, 135, 135);
+        text-decoration: none;
+    }
+
+    .ademi{
+        padding-top: 30px;
+        font-size: 17px;
+        
+    }
+
+   .ademi form input{
+       padding: 17px 120px ;
+       border: 2px solid rgb(247, 197, 247);
+       border-radius: 12px;
+       box-shadow: 3px 3px 3px  grey;
+    }
+   .link3 form input{
+       padding: 17px 120px ;
+       border: 1px solid rgb(197, 189, 189);
+       border-radius: 12px;
+       
+    }
+
+    .links2{
+        display: flex;
+        gap: 300px;
+        align-items: center;
+    }
+    .links2 a{
+        color: rgba(73, 71, 71, 0.644);
+    }
+
+    .link3{
+        padding: 0;
+        margin: 0;
+    }
+
+    .button button{
+        padding: 15px 180px;
+        background-color: rgb(9, 9, 24);
+        color: #f3f2f2;
+        border: 1px solid rgb(9, 9, 24) ;
+        border-radius: 30px;
+        font-size: 17px;
+    }
+    .link4{
+        place-items: center;
+        display: grid;
+    }
+
+    .link4 p{
+        color: rgba(73, 71, 71, 0.644);
+    }
+
+    .link4 p a{
+        color: rgba(73, 71, 71, 0.644);
+    }
+
+    .button{
+        padding-top: 30px;
+    }
+
+    /* .link3 #rat:focus{
+        background: yellow;
+        outline: none;
+        border: 3px solid yellow;
+    } */
+
+
+    @media  (max-width: 1023px){
+        *{
+            font-family: sans-serif;
+        }
+        
+        
+        body{
+            background: #f3f2f2;
+        }
+        /* .grandparent{
+            display: flex;
+            position: relative;
+        } */
+        
+        
+            .parent1 {
+               
+                display: none;
+            }
+        
+            .parent2 {
+                display: grid;
+                place-items: center;
+                margin: 0;
+                padding-top: 150px;
+            }
+
+            
+        
+        
+        
+            .parent2 h3{
+                font-size: 25px;
+                color: rgba(0, 0, 0, 0.719);
+                font-weight: bolder;
+                
+              
+                font-family: sans-serif;
+            }
+        
+            .links {
+                border: 1px solid rgb(197, 189, 189);
+                width: 300px;
+                border-radius: 30px;
+                padding: 15px 65px;
+                display: grid;
+                place-items: center;  
+            }
+        
+            .links a{
+                text-decoration: none;
+                color: black;
+                /* gap: 15px; */
+            }
+        
+            .links h1{
+                gap: 15px;
+            }
+        
+            .links a i{
+                color: linear-gradient(to top, red,yellow,green,blue);
+                padding-right: 10px;
+                font-size: 25px;
+            }
+        
+            .links1 {
+                display: grid;
+                place-items: center;
+                padding-top: 20px;
+                
+                
+            }
+        
+            .links1 a{
+                color: rgb(139, 135, 135);
+                text-decoration: none;
+            }
+        
+            .ademi{
+                padding-top: 30px;
+                font-size: 20px;
+                
+            }
+        
+           .ademi form input{
+               padding: 17px 120px ;
+               border: 2px solid rgb(247, 197, 247);
+               border-radius: 12px;
+               box-shadow: 3px 3px 3px  grey;
+            }
+           .link3 form input{
+               padding: 17px 120px ;
+               border: 1px solid rgb(197, 189, 189);
+               border-radius: 12px;
+               
+            }
+        
+            .links2{
+                display: flex;
+                gap: 300px;
+                align-items: center;
+            }
+            .links2 a{
+                color: rgba(73, 71, 71, 0.644);
+            }
+        
+            .link3{
+                padding: 0;
+                margin: 0;
+            }
+        
+            .button button{
+                padding: 15px 180px;
+                background-color: rgb(9, 9, 24);
+                color: #f3f2f2;
+                border: 1px solid rgb(9, 9, 24) ;
+                border-radius: 30px;
+                font-size: 20px;
+            }
+            .link4{
+                place-items: center;
+                display: grid;
+            }
+        
+            .link4 p{
+                color: rgba(73, 71, 71, 0.644);
+            }
+        
+            .link4 p a{
+                color: rgba(73, 71, 71, 0.644);
+            }
+        
+            .button{
+                padding-top: 30px;
+            }
+        
+    }
